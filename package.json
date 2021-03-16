@@ -1,0 +1,30 @@
+{
+  "name": "11ty-permalink-false-computed",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-permalink-false-computed/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "del": "^6.0.0",
+    "prettier": "^2.2.1"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-permalink-false-computed#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-permalink-false-computed.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "build:prod": "NODE_ENV=production eleventy",
+    "postbuild": "prettier www --write",
+    "postbuild:prod": "prettier www --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
